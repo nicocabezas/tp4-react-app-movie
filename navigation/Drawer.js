@@ -4,9 +4,10 @@ import { HomeScreen } from "../screens/HomeScreen";
 import { FilmsScreen } from "../screens/FilmsScreen";
 import { About } from "../screens/About";
 
-const Drawer = createDrawerNavigator();
+const Drawer = createDrawerNavigator()
 
 export const DrawerNavigator = () => {  
+
     return (
         <>
         <Drawer.Navigator>
@@ -17,3 +18,4 @@ export const DrawerNavigator = () => {
         </>
     );
 };
+

@@ -28,11 +28,9 @@ export const LoginScreen = () => {
 
   return (
     <View
-    style={styles.button}
-      // style={{flex:1, justifyContent: 'center', alignItems: 'center'}}
+          style={{flex:1, justifyContent: 'center', alignItems: 'center'}}
     >  
       <Button
-        style={styles.button}
         disabled={!request}
         title="Logine"
         onPress={() => {
@@ -43,13 +41,3 @@ export const LoginScreen = () => {
   );
 }
 
-const styles = StyleSheet.create({
-  button: {
-        width: '100%',
-        flex: 1,
-        borderRadius: 10,
-        justifyContent: 'center',
-        alignItems: 'center',
-        marginTop: 40,
-  }
-});
