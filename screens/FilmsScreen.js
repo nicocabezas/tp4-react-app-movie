@@ -27,9 +27,11 @@ export const FilmsScreen = () => {
 
     return (
         <View style={{
-            flex:1 
+            flex:1,
+            backgroundColor: '#FFA420',
+             
         }}>
-            <View style={{marginTop: 20, marginHorizontal: 20}}>   
+            <View style={{marginTop: 20, marginHorizontal: 20, }}>   
                 <View >
                     <Text  
                         style={{ 

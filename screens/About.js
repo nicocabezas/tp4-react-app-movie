@@ -7,7 +7,12 @@ export const About = () => {
 
 
     return (
-        <View style={{flex:1 ,marginTop: 20}}>
+        
+        <View style={{
+            flex:1,
+            backgroundColor: '#FFA420',
+             
+        }}>
             <View style={{alignItems: 'center', paddingHorizontal: 15}}>
                 <Text style={{fontWeight: 'bold', fontSize: 20}}>
                     Members:
@@ -35,5 +40,6 @@ export const About = () => {
                 
             </View>
         </View>
+        
     )
 }

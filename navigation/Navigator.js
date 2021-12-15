@@ -11,7 +11,7 @@ const Stack = createNativeStackNavigator();
 export const Navigator = () => {  
 
   return (
-    <NavigationContainer>
+    <NavigationContainer >
       <Stack.Navigator>
         <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}} />
         <Stack.Screen name="Film Detail" component={FilmDetailScreen} />
